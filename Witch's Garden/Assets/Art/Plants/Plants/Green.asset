@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feeda475e8bf39f428beeb06b75fe206, type: 3}
+  m_Name: Green
+  m_EditorClassIdentifier: 
+  plantName: Green
+  plantStages:
+  - {fileID: 21300000, guid: 70bf6a4f05736404fbdd0d75f0be1489, type: 3}
+  - {fileID: 21300000, guid: 96591d842942f644b872c4db5fcaf20d, type: 3}
+  - {fileID: 21300000, guid: 5ea955ffa27a73f4b8e0552d735931f0, type: 3}
+  timeBS: 4
