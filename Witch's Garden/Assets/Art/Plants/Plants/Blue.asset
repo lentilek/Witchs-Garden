@@ -18,3 +18,5 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ea8bfd2d4d881e84d8aaf535429ccff4, type: 3}
   - {fileID: 21300000, guid: 18f048e85bd23294eb3a9ab600eacfcc, type: 3}
   timeBS: 2
+  price: 1
+  icon: {fileID: 21300000, guid: 4bd48759946de884fac99462972b8d85, type: 3}
