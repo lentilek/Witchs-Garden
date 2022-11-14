@@ -12,15 +12,24 @@ public class PlantItem : MonoBehaviour
     public TextMeshProUGUI priceTxt;
     public Image icon;
 
+    GardenManager gm;
     void Start()
     {
-        nameTxt.text = plant.plantName;
-        priceTxt.text = "$ " + plant.price;
-        icon.sprite = plant.icon;
+        gm = FindObjectOfType<GardenManager>();
+
+        InitializeUI();
     }
 
     public void BuyPlant()
     {
         Debug.Log("Bought " + plant.plantName);
+        gm.SelectPlant(this);
+    }
+
+    void InitializeUI()
+    {
+        nameTxt.text = plant.plantName;
+        priceTxt.text = "$ " + plant.price;
+        icon.sprite = plant.icon;
     }
 }
