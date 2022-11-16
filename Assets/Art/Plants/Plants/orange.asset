@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: feeda475e8bf39f428beeb06b75fe206, type: 3}
-  m_Name: Blue
+  m_Name: orange
   m_EditorClassIdentifier: 
-  plantName: Eyeball
+  plantName: Candy
   plantStages:
-  - {fileID: 21300000, guid: b36cac9548d240045bcbaa52514cd4c0, type: 3}
-  - {fileID: 21300000, guid: ea8bfd2d4d881e84d8aaf535429ccff4, type: 3}
-  - {fileID: 21300000, guid: 18f048e85bd23294eb3a9ab600eacfcc, type: 3}
-  timeBS: 2
-  price: 1
-  icon: {fileID: 21300000, guid: 4bd48759946de884fac99462972b8d85, type: 3}
+  - {fileID: 21300000, guid: cda2711768bca7347a6ebb1ea03d2ad7, type: 3}
+  - {fileID: 21300000, guid: cdf0ac943e099074d834adb2e1109033, type: 3}
+  - {fileID: 21300000, guid: d24549a114ce18a4594ab86a6e056a86, type: 3}
+  timeBS: 6
+  price: 15
+  icon: {fileID: 21300000, guid: 2eb2cf7439a494144bd996e5a1ec93ee, type: 3}

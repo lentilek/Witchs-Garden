@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: feeda475e8bf39f428beeb06b75fe206, type: 3}
-  m_Name: Blue
+  m_Name: red
   m_EditorClassIdentifier: 
-  plantName: Eyeball
+  plantName: Bean
   plantStages:
-  - {fileID: 21300000, guid: b36cac9548d240045bcbaa52514cd4c0, type: 3}
-  - {fileID: 21300000, guid: ea8bfd2d4d881e84d8aaf535429ccff4, type: 3}
-  - {fileID: 21300000, guid: 18f048e85bd23294eb3a9ab600eacfcc, type: 3}
-  timeBS: 2
-  price: 1
-  icon: {fileID: 21300000, guid: 4bd48759946de884fac99462972b8d85, type: 3}
+  - {fileID: 21300000, guid: 0262e9c625d71a647a67104e6a3cf310, type: 3}
+  - {fileID: 21300000, guid: b1d150d93ddd5cd4aae4023f88fe16c1, type: 3}
+  - {fileID: 21300000, guid: 53b7f4bb541bf4a4c9076e4ef90cbf32, type: 3}
+  timeBS: 3
+  price: 5
+  icon: {fileID: 21300000, guid: b699a05aefa7a0c46a526781421b756b, type: 3}
