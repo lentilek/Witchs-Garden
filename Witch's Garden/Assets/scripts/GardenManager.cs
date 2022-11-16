@@ -11,6 +11,9 @@ public class GardenManager : MonoBehaviour
     public int money = 10;
     public TextMeshProUGUI moneyTxt;
 
+    public Color buyColor = Color.green;
+    public Color cancelColor = Color.red;
+
     void Start()
     {
         moneyTxt.text = "$" + money;
@@ -21,12 +24,21 @@ public class GardenManager : MonoBehaviour
         if(selectPlant == newPlant)
         {
             Debug.Log("Deselected " + selectPlant.plant.plantName);
+            selectPlant.btnImage.color = buyColor;
+            selectPlant.btnTxt.text = "Buy";
             selectPlant = null;
             isPlanting = false;
         }
         else
         {
+            if(selectPlant!= null)
+            {
+                selectPlant.btnImage.color = buyColor;
+                selectPlant.btnTxt.text = "Buy";
+            }
             selectPlant= newPlant;
+            selectPlant.btnImage.color = cancelColor;
+            selectPlant.btnTxt.text = "Cancel";
             Debug.Log("Selected " + selectPlant.plant.plantName);
             isPlanting = true;
         }

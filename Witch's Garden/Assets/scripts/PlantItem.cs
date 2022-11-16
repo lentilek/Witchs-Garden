@@ -12,6 +12,9 @@ public class PlantItem : MonoBehaviour
     public TextMeshProUGUI priceTxt;
     public Image icon;
 
+    public Image btnImage;
+    public TextMeshProUGUI btnTxt;
+
     GardenManager gm;
     void Start()
     {
