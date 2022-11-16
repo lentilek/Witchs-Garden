@@ -1,152 +1,545 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19044.2251; Version 2009; 64bit' Language: 'pl' Physical Memory: 16322 MB
+OS: 'Windows 10 Home; OS build 19043.2251; Version 2009; 64bit' Language: 'pl' Physical Memory: 8131 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
+D:\programy\Unity Hub\2020.3.7f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-F:/Moje dokumenty/GitHub/Witchs-Garden/Witch's Garden
+D:/CDV/programowaie_unity/Witchs Garden/Witch's Garden
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63374
-Successfully changed project path to: F:/Moje dokumenty/GitHub/Witchs-Garden/Witch's Garden
-F:/Moje dokumenty/GitHub/Witchs-Garden/Witch's Garden
+61431
+Successfully changed project path to: D:/CDV/programowaie_unity/Witchs Garden/Witch's Garden
+D:/CDV/programowaie_unity/Witchs Garden/Witch's Garden
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 22.85 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 23.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path F:/Moje dokumenty/GitHub/Witchs-Garden/Witch's Garden/Assets
+[Subsystems] Discovering subsystems at path D:/programy/Unity Hub/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/CDV/programowaie_unity/Witchs Garden/Witch's Garden/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x2188)
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
     Vendor:   
-    VRAM:     3962 MB
-    Driver:   31.0.15.1640
+    VRAM:     4018 MB
+    Driver:   27.21.14.5751
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Mono path[0] = 'D:/programy/Unity Hub/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'D:/programy/Unity Hub/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/programy/Unity Hub/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001834 seconds.
+Register platform support module: D:/programy/Unity Hub/2020.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/programy/Unity Hub/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001451 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 22.83 ms, found 0 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 23.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.849 seconds
+- Completed reload, in  0.865 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000536 seconds.
+Registered in 0.000541 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001F122C57040 doesn't match image D:\CDV\programowaie_unity\Witchs Garden\Witch's Garden\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.726 seconds
+- Completed reload, in  0.775 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1201 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 71.4 MB.
 System memory in use after: 71.4 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1645.
-Total: 1.443600 ms (FindLiveObjects: 0.178300 ms CreateObjectMapping: 0.052900 ms MarkObjects: 1.157100 ms  DeleteObjects: 0.054500 ms)
+Total: 1.697400 ms (FindLiveObjects: 0.155300 ms CreateObjectMapping: 0.045700 ms MarkObjects: 1.434500 ms  DeleteObjects: 0.060800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Art/Characters
-  artifactKey: Guid(8eeb368565b95d140a23f1d0f11788ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Characters using Guid(8eeb368565b95d140a23f1d0f11788ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83987dd9d0aeeba28b05b3464d38bd6d') in 0.006197 seconds
-  Import took 0.008129 seconds .
+  path: Assets/Art/Characters/Wiedźma 1/wiedźma 1 angry.png
+  artifactKey: Guid(eb09456fc6daa1944a9c5c547ef9c0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Wiedźma 1/wiedźma 1 angry.png using Guid(eb09456fc6daa1944a9c5c547ef9c0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9535d747cdaa2400291fb405502aaf1') in 0.114340 seconds
+  Import took 0.116282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Art/Characters/Wiedźma 1
+  artifactKey: Guid(52d4b14f7343eaf4cba1ad099a5cca68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Wiedźma 1 using Guid(52d4b14f7343eaf4cba1ad099a5cca68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff34ba4906695a3d5dd5bbf88771b21') in 0.001905 seconds
+  Import took 0.003602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Art/Characters/Wiedźma 1/wiedźma 1 happy.png
+  artifactKey: Guid(57f4064baedf14849af9bd0cbb618bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Wiedźma 1/wiedźma 1 happy.png using Guid(57f4064baedf14849af9bd0cbb618bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a978006d46cec1152a49da2139fb3dc') in 0.012846 seconds
+  Import took 0.014571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Art/Characters/Wiedźma 1/wiedźma 1 neutral.png
+  artifactKey: Guid(2008f705caabea64dbb3e0c9987cbb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Wiedźma 1/wiedźma 1 neutral.png using Guid(2008f705caabea64dbb3e0c9987cbb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1008432932015dfb67f50be4da146e') in 0.011687 seconds
+  Import took 0.013572 seconds .
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Registering precompiled user dll's ...
+Registered in 0.000537 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F0FD920820 doesn't match image D:\CDV\programowaie_unity\Witchs Garden\Witch's Garden\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 46.3 MB.
-System memory in use after: 46.5 MB.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.729 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1181 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.0 MB.
+System memory in use after: 73.1 MB.
 
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1645.
-Total: 1.456100 ms (FindLiveObjects: 0.115800 ms CreateObjectMapping: 0.032800 ms MarkObjects: 1.296400 ms  DeleteObjects: 0.009500 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1654.
+Total: 1.641300 ms (FindLiveObjects: 0.151000 ms CreateObjectMapping: 0.042700 ms MarkObjects: 1.429900 ms  DeleteObjects: 0.016300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000558 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F0FD09BEC0 doesn't match image D:\CDV\programowaie_unity\Witchs Garden\Witch's Garden\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.697 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1181 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.0 MB.
+System memory in use after: 73.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1657.
+Total: 3.138600 ms (FindLiveObjects: 0.243400 ms CreateObjectMapping: 0.099000 ms MarkObjects: 2.781900 ms  DeleteObjects: 0.013200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.881655 seconds.
-  path: Assets/Art/Characters/Wampir 1
-  artifactKey: Guid(261edadf66b14c243a934305856ddf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Characters/Wampir 1 using Guid(261edadf66b14c243a934305856ddf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65293b3c2fc04ab3aa60cffb0b4f30e8') in 0.001623 seconds
-  Import took 0.003299 seconds .
+  Time since last request: 534.494799 seconds.
+  path: Assets/placeholder/chara.mat
+  artifactKey: Guid(d619454b97bc4224a8d0db1fe7b10e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/placeholder/chara.mat using Guid(d619454b97bc4224a8d0db1fe7b10e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8a8038906f4523a2ee70a4522c68c5') in 0.094530 seconds
+  Import took 0.097191 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.491195 seconds.
-  path: Assets/Art/Characters/Wampir 1/wampir 1 angry.png
-  artifactKey: Guid(3563b88db67b3164b88ce64815d419ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Characters/Wampir 1/wampir 1 angry.png using Guid(3563b88db67b3164b88ce64815d419ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fff7d937ebbb16df44d1ce33df2a38') in 0.050813 seconds
-  Import took 0.052662 seconds .
+  Time since last request: 0.000306 seconds.
+  path: Assets/placeholder/client.prefab
+  artifactKey: Guid(244c372ce27d5b94ab785088de9ac4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/placeholder/client.prefab using Guid(244c372ce27d5b94ab785088de9ac4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5425d945ed36ad0d3bfa498f726384ad') in 0.110200 seconds
+  Import took 0.112088 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Art/Characters/Wampir 1/wampir 1 neutral.png
-  artifactKey: Guid(effb1fabb7616f74486c777082402fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Characters/Wampir 1/wampir 1 neutral.png using Guid(effb1fabb7616f74486c777082402fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1da8d340885094d080157c2a4b61233') in 0.008894 seconds
-  Import took 0.010438 seconds .
+  Time since last request: 0.000260 seconds.
+  path: Assets/placeholder/kursor.png
+  artifactKey: Guid(2dd241cb75ff7a44eadb8dab3ab9752f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/placeholder/kursor.png using Guid(2dd241cb75ff7a44eadb8dab3ab9752f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd742f09b19b5a5937060a6c5d06934') in 0.060054 seconds
+  Import took 0.061917 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Art/Characters/Wampir 1/wampir 1 happy.png
-  artifactKey: Guid(ff30f118f4678c041ab760ca438f6248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Characters/Wampir 1/wampir 1 happy.png using Guid(ff30f118f4678c041ab760ca438f6248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe6f56b04ce023560230d4ceab74d22') in 0.008582 seconds
-  Import took 0.010100 seconds .
+  Time since last request: 0.000281 seconds.
+  path: Assets/placeholder/plant2.png
+  artifactKey: Guid(40a23ee4fa7274d43ba7e9ce18369291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/placeholder/plant2.png using Guid(40a23ee4fa7274d43ba7e9ce18369291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e836e4a0ad0e40b97e536a90a2ecee58') in 0.058897 seconds
+  Import took 0.060858 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.252873 seconds.
-  path: Assets/Art/Characters/Wampir 1/wampir 1 angry.png
-  artifactKey: Guid(3563b88db67b3164b88ce64815d419ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Characters/Wampir 1/wampir 1 angry.png using Guid(3563b88db67b3164b88ce64815d419ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84cece47b8d3b79c0a1010b5eede0fd5') in 0.044740 seconds
-  Import took 0.046584 seconds .
+  Time since last request: 0.000263 seconds.
+  path: Assets/placeholder/grass.mat
+  artifactKey: Guid(6a6e01c83b5618b4089b3a58e9a93b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/placeholder/grass.mat using Guid(6a6e01c83b5618b4089b3a58e9a93b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96a84d5a2da8f68117bd55a7255b3a0') in 0.009819 seconds
+  Import took 0.011670 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.367269 seconds.
-  path: Assets/Art/Characters/Wampir 1/wampir 1 happy.png
-  artifactKey: Guid(ff30f118f4678c041ab760ca438f6248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Characters/Wampir 1/wampir 1 happy.png using Guid(ff30f118f4678c041ab760ca438f6248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69165ce3430e3e73a82aa32dca093e32') in 0.014525 seconds
-  Import took 0.016413 seconds .
+  Time since last request: 0.000249 seconds.
+  path: Assets/placeholder/patch.prefab
+  artifactKey: Guid(ddc97b0eef0fcd9448b67ba1af215b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/placeholder/patch.prefab using Guid(ddc97b0eef0fcd9448b67ba1af215b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f185dec386a11b723f71f0e2581c30c') in 0.008646 seconds
+  Import took 0.010618 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.993732 seconds.
-  path: Assets/Art/Characters/Wampir 1/wampir 1 neutral.png
-  artifactKey: Guid(effb1fabb7616f74486c777082402fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Characters/Wampir 1/wampir 1 neutral.png using Guid(effb1fabb7616f74486c777082402fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ebf34317dccc320157dbfe271d4347a') in 0.015263 seconds
-  Import took 0.017206 seconds .
+  Time since last request: 0.000237 seconds.
+  path: Assets/placeholder/cursor_PNG78.png
+  artifactKey: Guid(b748f06556c5ba047b2ef3bbc8190bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/placeholder/cursor_PNG78.png using Guid(b748f06556c5ba047b2ef3bbc8190bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ef6819748f6ec6d69607d5b870be18') in 0.010826 seconds
+  Import took 0.013199 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001440 seconds.
-  path: Assets/Art/Characters/Wampir 1/wampir 1 neutral.png
-  artifactKey: Guid(effb1fabb7616f74486c777082402fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Characters/Wampir 1/wampir 1 neutral.png using Guid(effb1fabb7616f74486c777082402fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ebf34317dccc320157dbfe271d4347a') in 0.014461 seconds
-  Import took 0.016739 seconds .
+  Time since last request: 0.000300 seconds.
+  path: Assets/placeholder/tool.prefab
+  artifactKey: Guid(f1583ccb1f7b0a04c96c3de219e807d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/placeholder/tool.prefab using Guid(f1583ccb1f7b0a04c96c3de219e807d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a459edfecefed8b95f65641c26e71c6d') in 0.024857 seconds
+  Import took 0.027007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/placeholder/dirt.mat
+  artifactKey: Guid(e533bd07ffafe944cb434e6c54222456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/placeholder/dirt.mat using Guid(e533bd07ffafe944cb434e6c54222456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db376a232431b55010f5c553a0013a3') in 0.008323 seconds
+  Import took 0.010414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/placeholder/tool.mat
+  artifactKey: Guid(a571bd74a982a154c9393e0511b050db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/placeholder/tool.mat using Guid(a571bd74a982a154c9393e0511b050db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7cbd0c72fb1e518a8a7edd7df691e8') in 0.010901 seconds
+  Import took 0.013046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/placeholder/plant-clipart-transparent-9.png
+  artifactKey: Guid(8c24bebbad800ba4e8859081db68bb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/placeholder/plant-clipart-transparent-9.png using Guid(8c24bebbad800ba4e8859081db68bb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8854a0f5bcee596061742eccd2a4e8') in 0.130397 seconds
+  Import took 0.132546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.551999 seconds.
+  path: Assets/placeholder/prefab_1
+  artifactKey: Guid(8831ba8d90775e842a203cb9151adadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/placeholder/prefab_1 using Guid(8831ba8d90775e842a203cb9151adadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2506f1dc9089a47ea5a7bc2d85b1785') in 0.002864 seconds
+  Import took 0.005317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.141648 seconds.
+  path: Assets/placeholder/prefab_1/item.prefab
+  artifactKey: Guid(2b8fbab72a9b3be4ea0f658af6e9a782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/placeholder/prefab_1/item.prefab using Guid(2b8fbab72a9b3be4ea0f658af6e9a782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941285375b1392d3cd2da85ee91007a7') in 0.062798 seconds
+  Import took 0.072007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/placeholder/prefab_1/patch.prefab
+  artifactKey: Guid(64a411d43603e474987476b77cb56dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/placeholder/prefab_1/patch.prefab using Guid(64a411d43603e474987476b77cb56dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468c41c6e897fd3b6eabd23f5fdb7885') in 0.009073 seconds
+  Import took 0.012061 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000525 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F124C44D50 doesn't match image D:\CDV\programowaie_unity\Witchs Garden\Witch's Garden\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.718 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1181 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.3 MB.
+System memory in use after: 73.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1702.
+Total: 2.541400 ms (FindLiveObjects: 0.154300 ms CreateObjectMapping: 0.042300 ms MarkObjects: 2.300900 ms  DeleteObjects: 0.042800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.093323 seconds.
+  path: Assets/placeholder/prefab_1/item.prefab
+  artifactKey: Guid(2b8fbab72a9b3be4ea0f658af6e9a782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/placeholder/prefab_1/item.prefab using Guid(2b8fbab72a9b3be4ea0f658af6e9a782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c2073930d10c2ea59e0865455c726a') in 0.090999 seconds
+  Import took 0.094385 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000688 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F0FD6C8A30 doesn't match image D:\CDV\programowaie_unity\Witchs Garden\Witch's Garden\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.700 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1181 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.3 MB.
+System memory in use after: 73.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1705.
+Total: 1.671000 ms (FindLiveObjects: 0.181400 ms CreateObjectMapping: 0.039000 ms MarkObjects: 1.429800 ms  DeleteObjects: 0.019000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.294010 seconds.
+  path: Assets/placeholder/prefab_1/item.prefab
+  artifactKey: Guid(2b8fbab72a9b3be4ea0f658af6e9a782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/placeholder/prefab_1/item.prefab using Guid(2b8fbab72a9b3be4ea0f658af6e9a782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1bfee2e9807ea74b520eb17e3b72b1') in 0.110806 seconds
+  Import took 0.114280 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000587 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F124C88CD0 doesn't match image D:\CDV\programowaie_unity\Witchs Garden\Witch's Garden\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.745 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1181 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.3 MB.
+System memory in use after: 73.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1708.
+Total: 1.790700 ms (FindLiveObjects: 0.164100 ms CreateObjectMapping: 0.042100 ms MarkObjects: 1.537300 ms  DeleteObjects: 0.045800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 386.788072 seconds.
+  path: Assets/placeholder/prefab_1/item.prefab
+  artifactKey: Guid(2b8fbab72a9b3be4ea0f658af6e9a782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/placeholder/prefab_1/item.prefab using Guid(2b8fbab72a9b3be4ea0f658af6e9a782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a94e276afb89709c13111b4345355e') in 0.099503 seconds
+  Import took 0.101864 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000856 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F0FD6C8A30 doesn't match image D:\CDV\programowaie_unity\Witchs Garden\Witch's Garden\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.730 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1181 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.3 MB.
+System memory in use after: 73.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1711.
+Total: 1.966400 ms (FindLiveObjects: 0.176300 ms CreateObjectMapping: 0.047600 ms MarkObjects: 1.717000 ms  DeleteObjects: 0.023700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 312.367897 seconds.
+  path: Assets/placeholder/prefab_1/item.prefab
+  artifactKey: Guid(2b8fbab72a9b3be4ea0f658af6e9a782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/placeholder/prefab_1/item.prefab using Guid(2b8fbab72a9b3be4ea0f658af6e9a782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a791ad0c37941490eb32119f388108') in 0.079321 seconds
+  Import took 0.082161 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000721 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F0FDB1FA40 doesn't match image D:\CDV\programowaie_unity\Witchs Garden\Witch's Garden\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.696 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1181 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.3 MB.
+System memory in use after: 73.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1714.
+Total: 2.704500 ms (FindLiveObjects: 0.785300 ms CreateObjectMapping: 0.187000 ms MarkObjects: 1.707700 ms  DeleteObjects: 0.022900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.043642 seconds.
+  path: Assets/placeholder/prefab_1/item.prefab
+  artifactKey: Guid(2b8fbab72a9b3be4ea0f658af6e9a782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/placeholder/prefab_1/item.prefab using Guid(2b8fbab72a9b3be4ea0f658af6e9a782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa687b77fd57ef8be7f8a042c9f26a54') in 0.082476 seconds
+  Import took 0.084818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.141494 seconds.
+  path: Assets/placeholder/prefab_1/item.prefab
+  artifactKey: Guid(2b8fbab72a9b3be4ea0f658af6e9a782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/placeholder/prefab_1/item.prefab using Guid(2b8fbab72a9b3be4ea0f658af6e9a782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1697ac4e38534677b6f59b54b2349125') in 0.024088 seconds
+  Import took 0.026631 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000539 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F124C884E0 doesn't match image D:\CDV\programowaie_unity\Witchs Garden\Witch's Garden\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.713 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1181 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.4 MB.
+System memory in use after: 73.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1717.
+Total: 1.597800 ms (FindLiveObjects: 0.150800 ms CreateObjectMapping: 0.036900 ms MarkObjects: 1.384200 ms  DeleteObjects: 0.024500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.711395 seconds.
+  path: Assets/placeholder/prefab_1/item.prefab
+  artifactKey: Guid(2b8fbab72a9b3be4ea0f658af6e9a782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/placeholder/prefab_1/item.prefab using Guid(2b8fbab72a9b3be4ea0f658af6e9a782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9bcefe7ce62975715247347f405bf4a') in 0.122634 seconds
+  Import took 0.125168 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000525 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F0FD6C8A30 doesn't match image D:\CDV\programowaie_unity\Witchs Garden\Witch's Garden\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.707 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1181 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.4 MB.
+System memory in use after: 73.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1720.
+Total: 1.775000 ms (FindLiveObjects: 0.157600 ms CreateObjectMapping: 0.041400 ms MarkObjects: 1.548800 ms  DeleteObjects: 0.025900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.163715 seconds.
+  path: Assets/placeholder/prefab_1/item.prefab
+  artifactKey: Guid(2b8fbab72a9b3be4ea0f658af6e9a782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/placeholder/prefab_1/item.prefab using Guid(2b8fbab72a9b3be4ea0f658af6e9a782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729456739611fa7a88b7c2ea387a8c12') in 0.103883 seconds
+  Import took 0.108341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 344.407889 seconds.
+  path: Assets/Art/Interface
+  artifactKey: Guid(82e1b10c8f721bb4e8dd89f8342474af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Interface using Guid(82e1b10c8f721bb4e8dd89f8342474af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54301a23fafe9678749c84ae7e5dd3c') in 0.003526 seconds
+  Import took 0.006766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.988444 seconds.
+  path: Assets/Art/Plants
+  artifactKey: Guid(52310466c2afb334699aa1b1561266d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Plants using Guid(52310466c2afb334699aa1b1561266d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae1c8bab3edbe3f74f2f3c6fc5388ba') in 0.002920 seconds
+  Import took 0.005962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.270847 seconds.
+  path: Assets/Art/Objects
+  artifactKey: Guid(0562e3a2d5937e544938623da10a5f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Objects using Guid(0562e3a2d5937e544938623da10a5f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8524e476f0c4a39ff791b377e24b86f7') in 0.003116 seconds
+  Import took 0.005530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.526196 seconds.
+  path: Assets/Art/Characters/Wilkołak
+  artifactKey: Guid(7de933d03075d554eb9b8771ff60e057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Wilkołak using Guid(7de933d03075d554eb9b8771ff60e057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9984ee35e1ba0584b7141aea9e33a94e') in 0.003262 seconds
+  Import took 0.005775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061372 seconds.
+  path: Assets/Art/Characters/Wilkołak/wilkołak 1 angry.png
+  artifactKey: Guid(bf4d335dbaa18ea4f9180c3cf4916566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Wilkołak/wilkołak 1 angry.png using Guid(bf4d335dbaa18ea4f9180c3cf4916566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e552b05cc87bbc28010031975926908') in 0.118841 seconds
+  Import took 0.121117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Art/Characters/Wilkołak/wilkołak 1 happy.png
+  artifactKey: Guid(80f0b68f9991c9d40859ebf506735943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Wilkołak/wilkołak 1 happy.png using Guid(80f0b68f9991c9d40859ebf506735943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c33159950ff5960bc16ad645d19c3ce') in 0.113495 seconds
+  Import took 0.115639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Art/Characters/Wilkołak/wilkołak 1 neutral.png
+  artifactKey: Guid(dc21924ceadb4564998c4f400e4d4c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Wilkołak/wilkołak 1 neutral.png using Guid(dc21924ceadb4564998c4f400e4d4c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06321c933f83016d75dec233f36003ff') in 0.078677 seconds
+  Import took 0.080750 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
