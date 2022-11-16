@@ -37,12 +37,12 @@ public class PlotManager : MonoBehaviour
     {
         if (isPlanted)
         {
-            if (plantStage == selectedPlant.plantStages.Length - 1)
+            if (plantStage == selectedPlant.plantStages.Length - 1 && !gm.isPlanting)
             {
                 Harvest();
             }
         }
-        else if(gm.isPlanting)
+        else if (gm.isPlanting && gm.selectPlant.plant.price <= gm.money) 
         {
             Plant(gm.selectPlant.plant);
         }
@@ -52,12 +52,16 @@ public class PlotManager : MonoBehaviour
     {
         isPlanted = false;
         plant.gameObject.SetActive(false);
+        gm.Transaction((selectedPlant.price) * 2);
     }
 
     void Plant(PlantObject newPlant)
     {
         selectedPlant= newPlant;
         isPlanted = true;
+
+        gm.Transaction(-selectedPlant.price);
+
         plantStage = 0;
         UpdatePlant();
         timer = selectedPlant.timeBS;

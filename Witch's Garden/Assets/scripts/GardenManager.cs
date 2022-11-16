@@ -1,21 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GardenManager : MonoBehaviour
 {
     public PlantItem selectPlant;
     public bool isPlanting = false;
-    // Start is called before the first frame update
+    public int money = 10;
+    public TextMeshProUGUI moneyTxt;
+
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        moneyTxt.text = "$" + money;
     }
 
     public void SelectPlant(PlantItem newPlant)
@@ -32,5 +30,11 @@ public class GardenManager : MonoBehaviour
             Debug.Log("Selected " + selectPlant.plant.plantName);
             isPlanting = true;
         }
+    }
+
+    public void Transaction(int value)
+    {
+        money += value;
+        moneyTxt.text = "$" + money;
     }
 }

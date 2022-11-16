@@ -2881,6 +2881,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selectPlant: {fileID: 0}
   isPlanting: 0
+  money: 5
+  moneyTxt: {fileID: 1980289679}
 --- !u!1 &2129477622
 GameObject:
   m_ObjectHideFlags: 0
