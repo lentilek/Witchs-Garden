@@ -2,16 +2,18 @@ using UnityEngine;
 
 public class PlotManager : MonoBehaviour
 {
-    bool isPlanted = false;
-    SpriteRenderer plant;
-    BoxCollider2D plantCollider;
+    private bool isPlanted = false;
+    private SpriteRenderer plant;
+    private BoxCollider2D plantCollider;
 
-    int plantStage = 0;
-    float timer;
+    private int plantStage = 0;
+    private float timer;
 
-    PlantObject selectedPlant;
+    private PlantObject selectedPlant;
 
-    GardenManager gm;
+    private GardenManager gm;
+
+    //private float py;
     void Start()
     {
         plant = transform.GetChild(0).GetComponent<SpriteRenderer>();
@@ -21,16 +23,17 @@ public class PlotManager : MonoBehaviour
 
     void Update()
     {
-        if (isPlanted)
+        if (!isPlanted)
+            return;
+
+        timer -= Time.deltaTime;
+        if (timer < 0 && plantStage < selectedPlant.plantStages.Length - 1)
         {
-            timer -= Time.deltaTime;
-            if(timer < 0 && plantStage < selectedPlant.plantStages.Length - 1)
-            {
-                timer = selectedPlant.timeBS;
-                plantStage++;
-                UpdatePlant();
-            }
+            timer = selectedPlant.timeBS;
+            plantStage++;
+            UpdatePlant();
         }
+
     }
 
     private void OnMouseDown()
@@ -72,6 +75,8 @@ public class PlotManager : MonoBehaviour
     {
         plant.sprite = selectedPlant.plantStages[plantStage];
         plantCollider.size = plant.sprite.bounds.size;
+        //py = plant.bounds.size.y;
+        //py = py * 0.5;
         plantCollider.offset = new Vector2(0, plant.bounds.size.y/2);
     }
 }
