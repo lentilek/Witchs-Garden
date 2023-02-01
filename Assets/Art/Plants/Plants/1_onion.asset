@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: feeda475e8bf39f428beeb06b75fe206, type: 3}
-  m_Name: red
+  m_Name: 1_onion
   m_EditorClassIdentifier: 
-  plantName: Bean
+  plantName: Onion
+  plantNumber: 1
   plantStages:
-  - {fileID: 21300000, guid: 0262e9c625d71a647a67104e6a3cf310, type: 3}
-  - {fileID: 21300000, guid: b1d150d93ddd5cd4aae4023f88fe16c1, type: 3}
-  - {fileID: 21300000, guid: 53b7f4bb541bf4a4c9076e4ef90cbf32, type: 3}
-  timeBS: 3
-  price: 5
-  icon: {fileID: 21300000, guid: b699a05aefa7a0c46a526781421b756b, type: 3}
+  - {fileID: 21300000, guid: 81c372895a371bf4e8e959f2a6cae88d, type: 3}
+  - {fileID: 21300000, guid: 242326379a143e64089f665830692a75, type: 3}
+  - {fileID: 21300000, guid: c8420b98aaf3d6f4c813fec4c417a4e1, type: 3}
+  timeBS: 1
+  price: 1
+  icon: {fileID: 21300000, guid: 40d4d045161cc3844b1c36a1236a60aa, type: 3}

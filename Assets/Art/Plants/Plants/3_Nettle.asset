@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: feeda475e8bf39f428beeb06b75fe206, type: 3}
-  m_Name: orange
+  m_Name: 3_Nettle
   m_EditorClassIdentifier: 
-  plantName: Candy
+  plantName: Nettle
+  plantNumber: 3
   plantStages:
-  - {fileID: 21300000, guid: cda2711768bca7347a6ebb1ea03d2ad7, type: 3}
-  - {fileID: 21300000, guid: cdf0ac943e099074d834adb2e1109033, type: 3}
-  - {fileID: 21300000, guid: d24549a114ce18a4594ab86a6e056a86, type: 3}
-  timeBS: 6
-  price: 15
-  icon: {fileID: 21300000, guid: 2eb2cf7439a494144bd996e5a1ec93ee, type: 3}
+  - {fileID: 21300000, guid: f48a8faed6dff254fb7813c7688fb459, type: 3}
+  - {fileID: 21300000, guid: d61c7fbd73929604d897d074bc144ee2, type: 3}
+  - {fileID: 21300000, guid: fa1bdfee8d08e48459406fd11ed0e46e, type: 3}
+  timeBS: 2
+  price: 2
+  icon: {fileID: 21300000, guid: 850424902af44af4fbc5205df54d24c8, type: 3}

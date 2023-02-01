@@ -6,6 +6,7 @@ using UnityEngine;
 public class PlantObject : ScriptableObject
 {
     public string plantName;
+    public int plantNumber;
     public Sprite[] plantStages;
     public float timeBS;
     public int price;

@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: feeda475e8bf39f428beeb06b75fe206, type: 3}
-  m_Name: Carrot
+  m_Name: 10_mushroom
   m_EditorClassIdentifier: 
-  plantName: Carrot
+  plantName: Mushroom
+  plantNumber: 10
   plantStages:
-  - {fileID: 21300000, guid: 33d5a79c6af367d4f93f88eef2742e15, type: 3}
-  - {fileID: 21300000, guid: d86e079c3c52ca04b84c31bbd71ed4c9, type: 3}
-  - {fileID: 21300000, guid: e984104beb99ad340a5d535b7e4c3d51, type: 3}
+  - {fileID: 21300000, guid: 20cf073349a5ba34889b5f961f9eb551, type: 3}
+  - {fileID: 21300000, guid: 9ba96e7e9c8a89e49988e7d4e7e950f1, type: 3}
+  - {fileID: 21300000, guid: 4763f6f27d93a2c4496ed78dcf89dd65, type: 3}
   timeBS: 5
-  price: 4
-  icon: {fileID: 21300000, guid: 969a95878550f8a4cb2adf72aa0d3dfe, type: 3}
+  price: 10
+  icon: {fileID: 21300000, guid: 20cf073349a5ba34889b5f961f9eb551, type: 3}

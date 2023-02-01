@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: feeda475e8bf39f428beeb06b75fe206, type: 3}
-  m_Name: onion
+  m_Name: 4_Radish
   m_EditorClassIdentifier: 
-  plantName: Onion
+  plantName: Radish
+  plantNumber: 4
   plantStages:
-  - {fileID: 21300000, guid: 81c372895a371bf4e8e959f2a6cae88d, type: 3}
-  - {fileID: 21300000, guid: 242326379a143e64089f665830692a75, type: 3}
-  - {fileID: 21300000, guid: c8420b98aaf3d6f4c813fec4c417a4e1, type: 3}
-  timeBS: 1
-  price: 1
-  icon: {fileID: 21300000, guid: 40d4d045161cc3844b1c36a1236a60aa, type: 3}
+  - {fileID: 21300000, guid: e678efdc82a12af43ab2d7b49126bf51, type: 3}
+  - {fileID: 21300000, guid: 5948c498298a77d44bf4df6d2cece0d0, type: 3}
+  - {fileID: 21300000, guid: cabf0d7513100ff4399fb47cff1382d0, type: 3}
+  timeBS: 3
+  price: 2
+  icon: {fileID: 21300000, guid: 1750a030f6787714487be8abc8e3ef53, type: 3}

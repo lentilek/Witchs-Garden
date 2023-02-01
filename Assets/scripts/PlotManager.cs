@@ -12,6 +12,7 @@ public class PlotManager : MonoBehaviour
     private PlantObject selectedPlant;
 
     private GardenManager gm;
+    private MagazineManager mm;
 
     //private float py;
     void Start()
@@ -19,6 +20,7 @@ public class PlotManager : MonoBehaviour
         plant = transform.GetChild(0).GetComponent<SpriteRenderer>();
         plantCollider = transform.GetChild(0).GetComponent<BoxCollider2D>();
         gm = transform.parent.GetComponent<GardenManager>();
+        mm = GameObject.Find("magazine").GetComponent<MagazineManager>();
     }
 
     void Update()
@@ -56,6 +58,8 @@ public class PlotManager : MonoBehaviour
         isPlanted = false;
         plant.gameObject.SetActive(false);
         gm.Transaction((selectedPlant.price) * 2);
+
+        mm.AddToMagazine(selectedPlant.plantNumber);
     }
 
     void Plant(PlantObject newPlant)

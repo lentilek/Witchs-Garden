@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: feeda475e8bf39f428beeb06b75fe206, type: 3}
-  m_Name: mushroom
+  m_Name: 8_red
   m_EditorClassIdentifier: 
-  plantName: Mushroom
+  plantName: Bean
+  plantNumber: 8
   plantStages:
-  - {fileID: 21300000, guid: 20cf073349a5ba34889b5f961f9eb551, type: 3}
-  - {fileID: 21300000, guid: 9ba96e7e9c8a89e49988e7d4e7e950f1, type: 3}
-  - {fileID: 21300000, guid: 4763f6f27d93a2c4496ed78dcf89dd65, type: 3}
-  timeBS: 5
-  price: 10
-  icon: {fileID: 21300000, guid: 20cf073349a5ba34889b5f961f9eb551, type: 3}
+  - {fileID: 21300000, guid: 0262e9c625d71a647a67104e6a3cf310, type: 3}
+  - {fileID: 21300000, guid: b1d150d93ddd5cd4aae4023f88fe16c1, type: 3}
+  - {fileID: 21300000, guid: 53b7f4bb541bf4a4c9076e4ef90cbf32, type: 3}
+  timeBS: 3
+  price: 5
+  icon: {fileID: 21300000, guid: b699a05aefa7a0c46a526781421b756b, type: 3}
