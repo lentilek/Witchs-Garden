@@ -9,6 +9,7 @@ public class ClientGenerator : MonoBehaviour
     public SpriteRenderer spRend;
     public bool present = false;
 
+
     void Start()
     {
         spRend = GetComponent<SpriteRenderer>();

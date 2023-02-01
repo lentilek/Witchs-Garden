@@ -9,12 +9,15 @@ public class OrderItem : MonoBehaviour
     public int number;
     public bool isOn = false;
 
+    public string what;
+
     private Order ord;
     void Start()
     {
         spRend = GetComponent<SpriteRenderer>();
         spRend.enabled = false;
-        ord = FindObjectOfType<Order>();   
+        //ord = FindObjectOfType<Order>();
+        ord = GameObject.Find(what).GetComponent<Order>();
     }
 
     void Update()
