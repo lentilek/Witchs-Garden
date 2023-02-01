@@ -72,6 +72,7 @@ public class Order : MonoBehaviour
             }
 
             cg.IsHappy();
+            gm.OrdersIncrease();
             timer = 5;
             waiting = true;
         }

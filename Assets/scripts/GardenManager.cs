@@ -8,8 +8,11 @@ public class GardenManager : MonoBehaviour
 {
     public PlantItem selectPlant;
     public bool isPlanting = false;
-    public int money = 10;
+    public int money;
     public TextMeshProUGUI moneyTxt;
+    private int numberOfOrders = 0;
+    public TextMeshProUGUI ordersTxt;
+    public int neededOrders;
 
     public Color buyColor = Color.green;
     public Color cancelColor = Color.red;
@@ -17,6 +20,7 @@ public class GardenManager : MonoBehaviour
     void Start()
     {
         moneyTxt.text = "$" + money;
+        ordersTxt.text = "Orders: " + numberOfOrders;
     }
 
     public void SelectPlant(PlantItem newPlant)
@@ -48,5 +52,10 @@ public class GardenManager : MonoBehaviour
     {
         money += value;
         moneyTxt.text = "$" + money;
+    }
+    public void OrdersIncrease()
+    {
+        numberOfOrders++;
+        ordersTxt.text = "Orders: " + numberOfOrders;
     }
 }
