@@ -25,7 +25,7 @@ public class PlantItem : MonoBehaviour
 
     public void BuyPlant()
     {
-        Debug.Log("Bought " + plant.plantName);
+        //Debug.Log("Bought " + plant.plantName);
         gm.SelectPlant(this);
     }
 

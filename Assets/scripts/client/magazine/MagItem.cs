@@ -25,4 +25,10 @@ public class MagItem : MonoBehaviour
         howMuch++;
         howMuchTxt.text = "" + howMuch;
     }
+
+    public void RemovePlant()
+    {
+        howMuch--;
+        howMuchTxt.text = "" + howMuch;
+    }
 }

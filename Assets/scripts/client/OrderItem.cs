@@ -7,7 +7,7 @@ public class OrderItem : MonoBehaviour
 {
     public SpriteRenderer spRend;
     public int number;
-    public bool isOn = false;
+    //public bool isOn = false;
 
     public string what;
 
@@ -22,11 +22,16 @@ public class OrderItem : MonoBehaviour
 
     void Update()
     {
-        if (ord.isOrder && ord.order.Count >= number+1 && !isOn)
+        if (ord.isOrder && ord.order.Count >= number+1)// && !isOn)
         {
             GetComponent<SpriteRenderer>().sprite = ord.order[number].icon;
             spRend.enabled = true;
-            isOn = true;
+            //isOn = true;
         }
+        else
+        {
+            spRend.enabled = false;
+        }
+
     }
 }

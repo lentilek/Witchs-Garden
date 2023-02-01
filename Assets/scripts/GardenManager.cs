@@ -23,7 +23,7 @@ public class GardenManager : MonoBehaviour
     {
         if(selectPlant == newPlant)
         {
-            Debug.Log("Deselected " + selectPlant.plant.plantName);
+            //Debug.Log("Deselected " + selectPlant.plant.plantName);
             selectPlant.btnImage.color = buyColor;
             selectPlant.btnTxt.text = "Buy";
             selectPlant = null;
@@ -39,7 +39,7 @@ public class GardenManager : MonoBehaviour
             selectPlant= newPlant;
             selectPlant.btnImage.color = cancelColor;
             selectPlant.btnTxt.text = "Cancel";
-            Debug.Log("Selected " + selectPlant.plant.plantName);
+            //Debug.Log("Selected " + selectPlant.plant.plantName);
             isPlanting = true;
         }
     }

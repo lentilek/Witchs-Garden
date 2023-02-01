@@ -57,7 +57,7 @@ public class PlotManager : MonoBehaviour
     {
         isPlanted = false;
         plant.gameObject.SetActive(false);
-        gm.Transaction((selectedPlant.price) * 2);
+        //gm.Transaction((selectedPlant.price) * 2);
 
         mm.AddToMagazine(selectedPlant.plantNumber);
     }
