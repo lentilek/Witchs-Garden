@@ -147,6 +147,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   drySprite: {fileID: 21300000, guid: 9da12e1d001ca3142817e20d9237b7f8, type: 3}
   normalSprite: {fileID: 21300000, guid: 09d89728a587be644a0db45866aaac81, type: 3}
+  weedPlace: {fileID: 0}
+  weeds:
+  - {fileID: 21300000, guid: ecc126022fc10b64d8af6e3fc390900d, type: 3}
+  - {fileID: 21300000, guid: ae4d9063149040e49831cbdf47757fab, type: 3}
+  - {fileID: 21300000, guid: c0c35b0e05f4175489743f675552ea61, type: 3}
 --- !u!1 &4117062964693527922
 GameObject:
   m_ObjectHideFlags: 0
