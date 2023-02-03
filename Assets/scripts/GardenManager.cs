@@ -83,7 +83,10 @@ public class GardenManager : MonoBehaviour
             {
                 //buttonsIMG[selectedTool - 1].sprite = normalButton;
                 buttonsIMG[selectedTool-1].color = buyColor;
-                btnTxt[selectedTool - 1].text = "WYBIERZ";
+                if (selectedTool == 4) btnTxt[selectedTool - 1].text = "SZYBSZY WZROST $2";
+                else if (selectedTool == 5) btnTxt[selectedTool - 1].text = "WIÊCEJ PLONÓW $5";
+                else
+                    btnTxt[selectedTool - 1].text = "WYBIERZ";
             }
             isSelecting= false;
             selectedTool = 0;

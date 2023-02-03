@@ -13,7 +13,6 @@ public class PlotManager : MonoBehaviour
 
     private GardenManager gm;
     private MagazineManager mm;
-    //private WeedManager wm;
 
     SpriteRenderer plot;
 
@@ -24,21 +23,15 @@ public class PlotManager : MonoBehaviour
     private float speed = 1;
     private bool isDouble = false;
 
-    /*private bool isWeed = false;
-    private float timerWeed;
-    public int plotNumber;*/
-
     public SpriteRenderer weedPlace;
     private bool isWeed = false;
     public Sprite[] weeds;
     private float weedTimer = 5;
-    //private float py;
     void Start()
     {
         plant = transform.GetChild(0).GetComponent<SpriteRenderer>();
         plantCollider = transform.GetChild(0).GetComponent<BoxCollider2D>();
         gm = transform.parent.GetComponent<GardenManager>();
-        //wm = GameObject.Find("weedsPlace").GetComponent<WeedManager>();
         mm = GameObject.Find("magazine").GetComponent<MagazineManager>();
         plot = GetComponent<SpriteRenderer>();
         plot.sprite = drySprite;
@@ -58,17 +51,7 @@ public class PlotManager : MonoBehaviour
                 UpdatePlant();
             }
         }
-        /*if (isPlanted && isWeed) timerWeed -= Time.deltaTime;
-        if (isPlanted && timerWeed< 0)
-        {
-            isPlanted = false;
-            plant.gameObject.SetActive(false);
-            //gm.Transaction((selectedPlant.price) * 2);
-            isDry = true;
-            plot.sprite = drySprite;
-            speed = 1f;
-            isDouble= false;
-        }*/
+
         if(!isWeed)
             weedTimer -= Time.deltaTime;
 
@@ -77,7 +60,6 @@ public class PlotManager : MonoBehaviour
             int rand = Random.Range(0, 30);
             if(rand < 3)
             {
-                //weed
                 weedPlace.sprite = weeds[rand];
                 weedPlace.gameObject.SetActive(true);
                 isWeed= true;
@@ -95,7 +77,6 @@ public class PlotManager : MonoBehaviour
         {
             isPlanted = false;
             plant.gameObject.SetActive(false);
-            //gm.Transaction((selectedPlant.price) * 2);
             isDry = true;
             plot.sprite = drySprite;
             speed = 1f;
@@ -128,20 +109,14 @@ public class PlotManager : MonoBehaviour
                     if(isPlanted) UpdatePlant();
                     break;
                 case 3:
-                    /*if (isWeed)
-                    {
-                        isWeed = false;
-                        //destroy weed
-                        wm.DestroyWeed(plotNumber);
-                    }*/
                     weedPlace.gameObject.SetActive(false);
                     isWeed = false;
                     weedTimer = 5;
                     break;
                 case 4:
-                    if (gm.money >= 3 && speed < 2)
+                    if (gm.money >= 2 && speed < 2)
                     {
-                        gm.Transaction(-3);
+                        gm.Transaction(-2);
                         if (speed < 2) speed += 0.5f;
                     } 
                     break;
@@ -158,22 +133,11 @@ public class PlotManager : MonoBehaviour
         }
     }
 
-    /*public void TheresWeed()
-    {
-        isWeed = true;
-        timerWeed = 6;
-    }
-    public bool IsThereWeed()
-    {
-        if(isWeed) return true;
-        else return false;
-    }*/
 
     void Harvest()
     {
         isPlanted = false;
         plant.gameObject.SetActive(false);
-        //gm.Transaction((selectedPlant.price) * 2);
         isDry= true;
         plot.sprite = drySprite;
         speed = 1f;
@@ -199,8 +163,6 @@ public class PlotManager : MonoBehaviour
     {
         plant.sprite = selectedPlant.plantStages[plantStage];
         plantCollider.size = plant.sprite.bounds.size;
-        //py = plant.bounds.size.y;
-        //py = py * 0.5;
         plantCollider.offset = new Vector2(0, plant.bounds.size.y/2);
     }
 }
