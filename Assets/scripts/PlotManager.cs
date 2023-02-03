@@ -21,6 +21,7 @@ public class PlotManager : MonoBehaviour
     public Sprite normalSprite;
 
     float speed = 1;
+    bool isDouble = false; 
 
     //private float py;
     void Start()
@@ -53,7 +54,7 @@ public class PlotManager : MonoBehaviour
     {
         if (isPlanted)
         {
-            if (plantStage == selectedPlant.plantStages.Length - 1 && !gm.isPlanting)
+            if (plantStage == selectedPlant.plantStages.Length - 1 && !gm.isPlanting && !gm.isSelecting)
             {
                 Harvest();
             }
@@ -72,11 +73,18 @@ public class PlotManager : MonoBehaviour
                     if(isPlanted) UpdatePlant();
                     break;
                 case 4:
-                    if (gm.money >= 5 && speed < 2)
+                    if (gm.money >= 3 && speed < 2)
                     {
-                        gm.Transaction(-5);
+                        gm.Transaction(-3);
                         if (speed < 2) speed += 0.5f;
                     } 
+                    break;
+                case 5:
+                    if (gm.money >= 5 && !isDouble)
+                    {
+                        gm.Transaction(-5);
+                        isDouble= true;
+                    }
                     break;
                 default: 
                     break;
@@ -93,6 +101,8 @@ public class PlotManager : MonoBehaviour
         plot.sprite = drySprite;
         speed = 1f;
         mm.AddToMagazine(selectedPlant.plantNumber);
+        if(isDouble) mm.AddToMagazine(selectedPlant.plantNumber);
+        isDouble=false;
     }
 
     void Plant(PlantObject newPlant)
