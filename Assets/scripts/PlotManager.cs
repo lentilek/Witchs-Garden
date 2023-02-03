@@ -87,6 +87,10 @@ public class PlotManager : MonoBehaviour
             speed = 1f;
             isDouble = false;
             weedTimer = 6;
+            fert1.gameObject.SetActive(false);
+            fert2.gameObject.SetActive(false);
+            fert3.gameObject.SetActive(false);
+            done.gameObject.SetActive(false);
         }
 
     }
