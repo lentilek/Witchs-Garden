@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: mage1
   m_EditorClassIdentifier: 
   clientName: mage1
-  clientNormal: {fileID: 21300000, guid: d40ad612be21eb74f9b6580660e9f1b0, type: 3}
-  clientHappy: {fileID: 21300000, guid: 157df6349fc4b5f4481976620ed2aa51, type: 3}
-  clientAngry: {fileID: 21300000, guid: 4225b16f991fc28439571d8ace1c41ef, type: 3}
+  clientNormal: {fileID: 21300000, guid: af59539d2eedd454d95e9c133ae19aa5, type: 3}
+  clientHappy: {fileID: 21300000, guid: 32ba5bb9851fe664392806a9a8bf21d9, type: 3}
+  clientAngry: {fileID: 21300000, guid: a3739f7aab3e42a4a9ac5346f8cb2347, type: 3}

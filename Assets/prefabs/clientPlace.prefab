@@ -102,7 +102,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spRend: {fileID: 4126431917322852928}
   number: 0
-  isOn: 0
   what: order1
 --- !u!1 &1385629933235042792
 GameObject:
@@ -206,7 +205,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spRend: {fileID: 846226109630320271}
   number: 0
-  isOn: 0
   what: order1
 --- !u!1 &2259698853596691168
 GameObject:
@@ -314,6 +312,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spRend: {fileID: 2259698853596691170}
   isOrder: 0
+  number: 0
   plantsToOrder:
   - {fileID: 11400000, guid: 6b04227f8fe3c8041a8b2746c9f40b34, type: 2}
   - {fileID: 11400000, guid: d3970754086396b4d97ce7d3fe56cf87, type: 2}
@@ -382,14 +381,14 @@ RectTransform:
   m_GameObject: {fileID: 2259698853892778086}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.9507377, y: 6.511098, z: 2.9507377}
+  m_LocalScale: {x: 3.7790096, y: 8.338763, z: 3.7790096}
   m_Children: []
   m_Father: {fileID: 2259698855232109997}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.9, y: -23}
+  m_AnchoredPosition: {x: 0.9, y: -15.1}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &2259698853892778083
@@ -432,12 +431,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 4
-  m_Sprite: {fileID: 21300000, guid: d40ad612be21eb74f9b6580660e9f1b0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: af59539d2eedd454d95e9c133ae19aa5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 7.85, y: 8.62}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -463,6 +462,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3a7f9c66e7954794db33ba2631e3da24, type: 2}
   spRend: {fileID: 2259698853892778083}
   present: 0
+  clientNumber: 0
 --- !u!1 &2259698854967162090
 GameObject:
   m_ObjectHideFlags: 0
@@ -565,7 +565,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spRend: {fileID: 2259698854967162068}
   number: 0
-  isOn: 0
   what: order1
 --- !u!1 &2259698855232109986
 GameObject:
