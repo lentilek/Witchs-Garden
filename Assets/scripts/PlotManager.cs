@@ -26,7 +26,7 @@ public class PlotManager : MonoBehaviour
     public SpriteRenderer weedPlace;
     private bool isWeed = false;
     public Sprite[] weeds;
-    private float weedTimer = 5;
+    private float weedTimer = 10;
     void Start()
     {
         plant = transform.GetChild(0).GetComponent<SpriteRenderer>();
@@ -68,7 +68,7 @@ public class PlotManager : MonoBehaviour
             }
             else
             {
-                weedTimer = 5;
+                weedTimer = 10;
             }
         }
         if(isPlanted && isWeed) 
@@ -111,7 +111,7 @@ public class PlotManager : MonoBehaviour
                 case 3:
                     weedPlace.gameObject.SetActive(false);
                     isWeed = false;
-                    weedTimer = 5;
+                    weedTimer = 10;
                     break;
                 case 4:
                     if (gm.money >= 2 && speed < 2)
