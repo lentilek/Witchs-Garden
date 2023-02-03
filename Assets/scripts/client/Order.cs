@@ -18,6 +18,9 @@ public class Order : MonoBehaviour
     private ClientGenerator cg;
     private MagazineManager mm;
     private GardenManager gm;
+
+    //public Color goodColor = Color.green;
+    public SpriteRenderer dymek;
     void Start()
     {
         spRend = GetComponent<SpriteRenderer>();
@@ -47,6 +50,7 @@ public class Order : MonoBehaviour
             waiting = false;
             isOrder = false;
             order.Clear();
+            dymek.color= Color.white;
         }
     }
 
@@ -72,6 +76,7 @@ public class Order : MonoBehaviour
             }
 
             cg.IsHappy();
+            dymek.color = Color.green;
             gm.OrdersIncrease();
             timer = 3;
             waiting = true;

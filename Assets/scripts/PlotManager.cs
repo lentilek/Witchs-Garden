@@ -27,6 +27,11 @@ public class PlotManager : MonoBehaviour
     private bool isWeed = false;
     public Sprite[] weeds;
     private float weedTimer = 10;
+
+    public SpriteRenderer fert1;
+    public SpriteRenderer fert2;
+    public SpriteRenderer fert3;
+    public SpriteRenderer done;
     void Start()
     {
         plant = transform.GetChild(0).GetComponent<SpriteRenderer>();
@@ -117,13 +122,16 @@ public class PlotManager : MonoBehaviour
                     if (gm.money >= 2 && speed < 2)
                     {
                         gm.Transaction(-2);
-                        if (speed < 2) speed += 0.5f;
+                        if(speed == 1) fert1.gameObject.SetActive(true);
+                        else if(speed == 1.5f) fert2.gameObject.SetActive(true);
+                        speed += 0.5f;
                     } 
                     break;
                 case 5:
                     if (gm.money >= 5 && !isDouble)
                     {
                         gm.Transaction(-5);
+                        fert3.gameObject.SetActive(true);
                         isDouble= true;
                     }
                     break;
@@ -144,6 +152,10 @@ public class PlotManager : MonoBehaviour
         mm.AddToMagazine(selectedPlant.plantNumber);
         if(isDouble) mm.AddToMagazine(selectedPlant.plantNumber);
         isDouble=false;
+        fert1.gameObject.SetActive(false);
+        fert2.gameObject.SetActive(false);
+        fert3.gameObject.SetActive(false);
+        done.gameObject.SetActive(false);
     }
 
     void Plant(PlantObject newPlant)
@@ -164,5 +176,6 @@ public class PlotManager : MonoBehaviour
         plant.sprite = selectedPlant.plantStages[plantStage];
         plantCollider.size = plant.sprite.bounds.size;
         plantCollider.offset = new Vector2(0, plant.bounds.size.y/2);
+        if (plantStage == 2) done.gameObject.SetActive(true);
     }
 }
