@@ -20,6 +20,8 @@ public class PlotManager : MonoBehaviour
     public Sprite drySprite;
     public Sprite normalSprite;
 
+    float speed = 1;
+
     //private float py;
     void Start()
     {
@@ -36,7 +38,7 @@ public class PlotManager : MonoBehaviour
     {
         if (isPlanted && !isDry)
         {
-            timer -= Time.deltaTime;
+            timer -= speed * Time.deltaTime;
             if (timer < 0 && plantStage < selectedPlant.plantStages.Length - 1)
             {
                 timer = selectedPlant.timeBS;
@@ -69,6 +71,13 @@ public class PlotManager : MonoBehaviour
                     plot.sprite = normalSprite;
                     if(isPlanted) UpdatePlant();
                     break;
+                case 4:
+                    if (gm.money >= 5 && speed < 2)
+                    {
+                        gm.Transaction(-5);
+                        if (speed < 2) speed += 0.5f;
+                    } 
+                    break;
                 default: 
                     break;
             }
@@ -82,7 +91,7 @@ public class PlotManager : MonoBehaviour
         //gm.Transaction((selectedPlant.price) * 2);
         isDry= true;
         plot.sprite = drySprite;
-
+        speed = 1f;
         mm.AddToMagazine(selectedPlant.plantNumber);
     }
 
