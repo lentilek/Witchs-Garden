@@ -14,6 +14,12 @@ public class PlotManager : MonoBehaviour
     private GardenManager gm;
     private MagazineManager mm;
 
+    SpriteRenderer plot;
+
+    bool isDry = true;
+    public Sprite drySprite;
+    public Sprite normalSprite;
+
     //private float py;
     void Start()
     {
@@ -21,19 +27,22 @@ public class PlotManager : MonoBehaviour
         plantCollider = transform.GetChild(0).GetComponent<BoxCollider2D>();
         gm = transform.parent.GetComponent<GardenManager>();
         mm = GameObject.Find("magazine").GetComponent<MagazineManager>();
+        plot = GetComponent<SpriteRenderer>();
+        plot.sprite = drySprite;
+
     }
 
     void Update()
     {
-        if (!isPlanted)
-            return;
-
-        timer -= Time.deltaTime;
-        if (timer < 0 && plantStage < selectedPlant.plantStages.Length - 1)
+        if (isPlanted && !isDry)
         {
-            timer = selectedPlant.timeBS;
-            plantStage++;
-            UpdatePlant();
+            timer -= Time.deltaTime;
+            if (timer < 0 && plantStage < selectedPlant.plantStages.Length - 1)
+            {
+                timer = selectedPlant.timeBS;
+                plantStage++;
+                UpdatePlant();
+            }
         }
 
     }
@@ -51,6 +60,19 @@ public class PlotManager : MonoBehaviour
         {
             Plant(gm.selectPlant.plant);
         }
+        if (gm.isSelecting)
+        {
+            switch(gm.selectedTool)
+            {
+                case 1:
+                    isDry = false;
+                    plot.sprite = normalSprite;
+                    if(isPlanted) UpdatePlant();
+                    break;
+                default: 
+                    break;
+            }
+        }
     }
 
     void Harvest()
@@ -58,6 +80,8 @@ public class PlotManager : MonoBehaviour
         isPlanted = false;
         plant.gameObject.SetActive(false);
         //gm.Transaction((selectedPlant.price) * 2);
+        isDry= true;
+        plot.sprite = drySprite;
 
         mm.AddToMagazine(selectedPlant.plantNumber);
     }
