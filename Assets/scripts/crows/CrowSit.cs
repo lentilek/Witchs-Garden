@@ -15,7 +15,6 @@ public class CrowSit : MonoBehaviour
     private float timer;
     private bool bonked = false;
     public PlotManager[] plots;
-    // Start is called before the first frame update
     void Start()
     {
         gm = FindObjectOfType<GardenManager>();
@@ -23,7 +22,6 @@ public class CrowSit : MonoBehaviour
         this.gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (isSitting && !bonked)
@@ -42,7 +40,7 @@ public class CrowSit : MonoBehaviour
                     }
                 }
 
-                Debug.Log("nom");
+                //Debug.Log("nom");
                 isSitting= false;
                 this.gameObject.SetActive(false);
             }
@@ -53,7 +51,6 @@ public class CrowSit : MonoBehaviour
             if (timer < 0)
             {
                 isSitting = false;
-                //thisCrow.gameObject.SetActive(false);
                 this.gameObject.SetActive(false);
                 bonked = false; 
             }

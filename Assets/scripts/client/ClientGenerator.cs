@@ -22,12 +22,6 @@ public class ClientGenerator : MonoBehaviour
     {
         if(!present)
         {
-            /*int rand2 = Random.Range(0, 10);
-            if(rand2 > 6)
-            {
-                NewClient();
-                present = true;
-            }*/
             NewClient();
             present = true;
 

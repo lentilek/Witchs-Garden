@@ -9,7 +9,6 @@ public class Order : MonoBehaviour
     public bool isOrder = false;
     public int number;
     public PlantObject[] plantsToOrder;
-    //public PlantObject[] order;
     public List<PlantObject> order = new List<PlantObject>();
     private float timer;
     private bool waiting = false;
@@ -20,14 +19,11 @@ public class Order : MonoBehaviour
     private MagazineManager mm;
     private GardenManager gm;
 
-    //public Color goodColor = Color.green;
     public SpriteRenderer dymek;
     void Start()
     {
         spRend = GetComponent<SpriteRenderer>();
         spRend.enabled = false;
-        //cg = transform.GetComponent<ClientGenerator>();
-        //cg = FindObjectOfType<ClientGenerator>();
         cg = GameObject.Find(what).GetComponent<ClientGenerator>();
         mm = GameObject.Find("magazine").GetComponent<MagazineManager>();
         gm = FindObjectOfType<GardenManager>();

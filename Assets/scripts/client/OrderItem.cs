@@ -16,7 +16,6 @@ public class OrderItem : MonoBehaviour
     {
         spRend = GetComponent<SpriteRenderer>();
         spRend.enabled = false;
-        //ord = FindObjectOfType<Order>();
         ord = GameObject.Find(what).GetComponent<Order>();
     }
 

@@ -9,14 +9,12 @@ public class TutorialText : MonoBehaviour
     public string[] lines;
     public float textspeed;
     private int index;
-    // Start is called before the first frame update
     void Start()
     {
         textComponent.text = string.Empty;
         StartText();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if(Input.GetMouseButtonDown(0))

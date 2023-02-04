@@ -7,18 +7,12 @@ using TMPro;
 
 public class GameOverScrene : MonoBehaviour
 {
-    //public GardenManager gm;
     public TextMeshProUGUI pointsText;
 
-    void Start()
-    {
-        //gm = FindObjectOfType<GardenManager>();
-        //pointsText.text = "ZAMÓWIENIA: "+ gm.numberOfOrders;
-    }
     public void Over(int score)
     {
         gameObject.SetActive(true);
-        pointsText.text = "ZAMÓWIENIA: " + score.ToString();// + "Points";
+        pointsText.text = "ZAMÓWIENIA: " + score.ToString();
     }
     public void RestartButton()
     {

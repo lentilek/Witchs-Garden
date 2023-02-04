@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class GardenManager : MonoBehaviour
 {
@@ -14,7 +13,6 @@ public class GardenManager : MonoBehaviour
 
     public int numberOfOrders = 0;
     public TextMeshProUGUI ordersTxt;
-    //public int neededOrders;
     
     public TextMeshProUGUI timeTxt;
     private float time = 360;
@@ -33,7 +31,6 @@ public class GardenManager : MonoBehaviour
     public GameOverScrene gos;
     void Start()
     {
-        //gos = FindObjectOfType<GameOverScrene>();
         moneyTxt.text = "$" + money;
         ordersTxt.text = "Zamówienia: " + numberOfOrders;
         timeTxt.text = "Czas: " + time;
@@ -45,7 +42,6 @@ public class GardenManager : MonoBehaviour
         timeTxt.text = "Czas: " + time;
         if(time < 0)
         {
-            //SceneManager.LoadScene("Restart");
             gos.Over(numberOfOrders);
         }
     }
@@ -81,7 +77,6 @@ public class GardenManager : MonoBehaviour
             CheckSelection();
             isSelecting= true;
             selectedTool= toolNumber;
-            //buttonsIMG[toolNumber - 1].sprite = selectedButton;
             buttonsIMG[selectedTool - 1].color = cancelColor;
             btnTxt[selectedTool - 1].text = "ODZNACZ";
         }
@@ -102,7 +97,6 @@ public class GardenManager : MonoBehaviour
         {
             if(selectedTool > 0)
             {
-                //buttonsIMG[selectedTool - 1].sprite = normalButton;
                 buttonsIMG[selectedTool-1].color = buyColor;
                 if (selectedTool == 4) btnTxt[selectedTool - 1].text = "SZYBSZY WZROST $2";
                 else if (selectedTool == 5) btnTxt[selectedTool - 1].text = "WIÊCEJ PLONÓW $5";
