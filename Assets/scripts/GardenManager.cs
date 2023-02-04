@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GardenManager : MonoBehaviour
 {
@@ -10,9 +11,15 @@ public class GardenManager : MonoBehaviour
     public bool isPlanting = false;
     public int money;
     public TextMeshProUGUI moneyTxt;
-    private int numberOfOrders = 0;
+
+    public int numberOfOrders = 0;
     public TextMeshProUGUI ordersTxt;
-    public int neededOrders;
+    //public int neededOrders;
+    
+    public TextMeshProUGUI timeTxt;
+    private float time = 360;
+    
+
 
     public Color buyColor = Color.green;
     public Color cancelColor = Color.red;
@@ -23,10 +30,24 @@ public class GardenManager : MonoBehaviour
     public Image[] buttonsIMG;
     public TextMeshProUGUI[] btnTxt;
 
+    public GameOverScrene gos;
     void Start()
     {
+        //gos = FindObjectOfType<GameOverScrene>();
         moneyTxt.text = "$" + money;
         ordersTxt.text = "Zamówienia: " + numberOfOrders;
+        timeTxt.text = "Czas: " + time;
+    }
+
+    private void Update()
+    {
+        time -= Time.deltaTime;
+        timeTxt.text = "Czas: " + time;
+        if(time < 0)
+        {
+            //SceneManager.LoadScene("Restart");
+            gos.Over(numberOfOrders);
+        }
     }
 
     public void SelectPlant(PlantItem newPlant)
