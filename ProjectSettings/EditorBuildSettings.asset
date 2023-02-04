@@ -14,7 +14,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/final scenes/tutorial.unity
     guid: b13cdacc6ff0407469192b63954ad8e4
-  - enabled: 1
-    path: Assets/aaa/Restart.unity
-    guid: fd07de8ad342a614f94c6bd27fc8e849
   m_configObjects: {}

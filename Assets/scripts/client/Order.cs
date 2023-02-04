@@ -13,6 +13,7 @@ public class Order : MonoBehaviour
     public List<PlantObject> order = new List<PlantObject>();
     private float timer;
     private bool waiting = false;
+    private int maks;
 
     public string what;
     private ClientGenerator cg;
@@ -93,9 +94,14 @@ public class Order : MonoBehaviour
         spRend.enabled = true;
         number = Random.Range(1, 4);
         //Debug.Log("numer"+ number);
+        if (gm.numberOfOrders < 6)
+        {
+            maks = 6;
+        }
+        else maks = plantsToOrder.Length;
         for(int i=1; i<=number; i++)
         {
-            int rand = Random.Range(0, plantsToOrder.Length);
+            int rand = Random.Range(0, maks);
             order.Add(plantsToOrder[rand]);
         }
         //Debug.Log(order.Count);
