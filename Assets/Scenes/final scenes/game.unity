@@ -633,7 +633,6 @@ GameObject:
   m_Component:
   - component: {fileID: 143252684}
   - component: {fileID: 143252685}
-  - component: {fileID: 143252686}
   m_Layer: 0
   m_Name: weed2
   m_TagString: Untagged
@@ -706,19 +705,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &143252686
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 143252683}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 9.799999, y: 9.799999, z: 0.19999999}
-  m_Center: {x: 0, y: 4.8999996, z: 0}
 --- !u!1001 &152008868
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3193,8 +3179,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279111182
-  m_fontColor: {r: 0.05660379, g: 0.055268794, b: 0.055268794, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3346,7 +3332,6 @@ GameObject:
   m_Component:
   - component: {fileID: 709473100}
   - component: {fileID: 709473101}
-  - component: {fileID: 709473102}
   m_Layer: 0
   m_Name: weed4
   m_TagString: Untagged
@@ -3419,19 +3404,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &709473102
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 709473099}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 9.799999, y: 9.799999, z: 0.19999999}
-  m_Center: {x: 0.0000076293945, y: 4.8999996, z: 0}
 --- !u!1001 &721597599
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4264,7 +4236,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 17.500244, y: -164.89749}
+  m_AnchoredPosition: {x: 17.500244, y: -164.89742}
   m_SizeDelta: {x: 100, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &801651176
@@ -4787,7 +4759,6 @@ GameObject:
   m_Component:
   - component: {fileID: 886915526}
   - component: {fileID: 886915527}
-  - component: {fileID: 886915528}
   m_Layer: 0
   m_Name: weed6
   m_TagString: Untagged
@@ -4860,19 +4831,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &886915528
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 886915525}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 9.799999, y: 9.799999, z: 0.19999999}
-  m_Center: {x: 0, y: 4.8999996, z: 0}
 --- !u!1 &888857702
 GameObject:
   m_ObjectHideFlags: 0
@@ -5368,7 +5326,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1052690565}
   - component: {fileID: 1052690566}
-  - component: {fileID: 1052690567}
   m_Layer: 0
   m_Name: weed5
   m_TagString: Untagged
@@ -5441,19 +5398,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &1052690567
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1052690564}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 9.799999, y: 9.799999, z: 0.19999999}
-  m_Center: {x: -0.0000076293945, y: 4.8999996, z: 0}
 --- !u!1001 &1063558305
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5826,7 +5770,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1263102215}
   - component: {fileID: 1263102216}
-  - component: {fileID: 1263102217}
   m_Layer: 0
   m_Name: weed8
   m_TagString: Untagged
@@ -5899,19 +5842,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &1263102217
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1263102214}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 9.799999, y: 9.799999, z: 0.19999999}
-  m_Center: {x: 0, y: 4.8999987, z: 0}
 --- !u!1001 &1306731073
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6064,7 +5994,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1324165074}
   - component: {fileID: 1324165075}
-  - component: {fileID: 1324165076}
   m_Layer: 0
   m_Name: weed3
   m_TagString: Untagged
@@ -6137,19 +6066,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &1324165076
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1324165073}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 9.799999, y: 9.799999, z: 0.19999999}
-  m_Center: {x: 0, y: 4.8999996, z: 0}
 --- !u!1 &1334077294
 GameObject:
   m_ObjectHideFlags: 0
@@ -6232,7 +6148,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1438701798}
   m_HandleRect: {fileID: 1438701797}
   m_Direction: 2
-  m_Value: 0.00000017929887
+  m_Value: -0.00000017929887
   m_Size: 0.7460403
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -6276,11 +6192,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1334077294}
   m_CullTransparentMesh: 1
---- !u!1 &1349963303 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8027306633969190909, guid: 4698a767d697bc640ba7cd5d698f3553, type: 3}
-  m_PrefabInstance: {fileID: 8027306633160296922}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1349963304 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8027306633969190898, guid: 4698a767d697bc640ba7cd5d698f3553, type: 3}
@@ -6291,32 +6202,6 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 8027306633969190899, guid: 4698a767d697bc640ba7cd5d698f3553, type: 3}
   m_PrefabInstance: {fileID: 8027306633160296922}
   m_PrefabAsset: {fileID: 0}
---- !u!61 &1349963306
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1349963303}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 4.9}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 9.8, y: 9.8}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 9.8, y: 9.8}
-  m_EdgeRadius: 0
 --- !u!1 &1375480886
 GameObject:
   m_ObjectHideFlags: 0
@@ -6905,7 +6790,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1494770802}
   - component: {fileID: 1494770803}
-  - component: {fileID: 1494770804}
   m_Layer: 0
   m_Name: weed9
   m_TagString: Untagged
@@ -6978,19 +6862,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &1494770804
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1494770801}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 9.799999, y: 9.799999, z: 0.19999999}
-  m_Center: {x: -0.0000076293945, y: 4.8999987, z: 0}
 --- !u!1001 &1520131416
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7099,6 +6970,10 @@ PrefabInstance:
       propertyPath: plots.Array.data[3]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5053504052996844026, guid: 4a9afc091b1d63643834f86488fe17e7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: cd4257e76f991014cb4845087ebec51f, type: 3}
     - target: {fileID: 5053504052996844027, guid: 4a9afc091b1d63643834f86488fe17e7, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -7877,7 +7752,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1688113785}
   - component: {fileID: 1688113786}
-  - component: {fileID: 1688113787}
   m_Layer: 0
   m_Name: weed7
   m_TagString: Untagged
@@ -7950,19 +7824,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &1688113787
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1688113784}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 9.799999, y: 9.799999, z: 0.19999999}
-  m_Center: {x: 0, y: 4.8999987, z: 0}
 --- !u!1001 &1700885672
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9941,17 +9802,21 @@ PrefabInstance:
       value: sit1
       objectReference: {fileID: 0}
     - target: {fileID: 5053504052996844024, guid: 4a9afc091b1d63643834f86488fe17e7, type: 3}
+      propertyPath: plots.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053504052996844024, guid: 4a9afc091b1d63643834f86488fe17e7, type: 3}
       propertyPath: plots.Array.data[0]
       value: 
       objectReference: {fileID: 2015397242}
     - target: {fileID: 5053504052996844024, guid: 4a9afc091b1d63643834f86488fe17e7, type: 3}
       propertyPath: plots.Array.data[1]
       value: 
-      objectReference: {fileID: 902575766}
+      objectReference: {fileID: 513730892}
     - target: {fileID: 5053504052996844024, guid: 4a9afc091b1d63643834f86488fe17e7, type: 3}
       propertyPath: plots.Array.data[2]
       value: 
-      objectReference: {fileID: 513730892}
+      objectReference: {fileID: 757040342}
     - target: {fileID: 5053504052996844024, guid: 4a9afc091b1d63643834f86488fe17e7, type: 3}
       propertyPath: plots.Array.data[3]
       value: 
