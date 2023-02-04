@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlotManager : MonoBehaviour
 {
-    private bool isPlanted = false;
+    public bool isPlanted = false;
     private SpriteRenderer plant;
     private BoxCollider2D plantCollider;
 
@@ -80,17 +80,8 @@ public class PlotManager : MonoBehaviour
             weedTimer-= Time.deltaTime;
         if(weedTimer < 0 && isWeed & isPlanted) 
         {
-            isPlanted = false;
-            plant.gameObject.SetActive(false);
-            isDry = true;
-            plot.sprite = drySprite;
-            speed = 1f;
-            isDouble = false;
+            Nom();
             weedTimer = 6;
-            fert1.gameObject.SetActive(false);
-            fert2.gameObject.SetActive(false);
-            fert3.gameObject.SetActive(false);
-            done.gameObject.SetActive(false);
         }
 
     }
@@ -116,6 +107,9 @@ public class PlotManager : MonoBehaviour
                     isDry = false;
                     plot.sprite = normalSprite;
                     if(isPlanted) UpdatePlant();
+                    break;
+                case 2:
+                    //kruki
                     break;
                 case 3:
                     weedPlace.gameObject.SetActive(false);
@@ -148,18 +142,9 @@ public class PlotManager : MonoBehaviour
 
     void Harvest()
     {
-        isPlanted = false;
-        plant.gameObject.SetActive(false);
-        isDry= true;
-        plot.sprite = drySprite;
-        speed = 1f;
         mm.AddToMagazine(selectedPlant.plantNumber);
         if(isDouble) mm.AddToMagazine(selectedPlant.plantNumber);
-        isDouble=false;
-        fert1.gameObject.SetActive(false);
-        fert2.gameObject.SetActive(false);
-        fert3.gameObject.SetActive(false);
-        done.gameObject.SetActive(false);
+        Nom();
     }
 
     void Plant(PlantObject newPlant)
@@ -181,5 +166,19 @@ public class PlotManager : MonoBehaviour
         plantCollider.size = plant.sprite.bounds.size;
         plantCollider.offset = new Vector2(0, plant.bounds.size.y/2);
         if (plantStage == 2) done.gameObject.SetActive(true);
+    }
+
+    public void Nom()
+    {
+        isPlanted = false;
+        plant.gameObject.SetActive(false);
+        isDry = true;
+        plot.sprite = drySprite;
+        speed = 1f;
+        isDouble = false;
+        fert1.gameObject.SetActive(false);
+        fert2.gameObject.SetActive(false);
+        fert3.gameObject.SetActive(false);
+        done.gameObject.SetActive(false);
     }
 }
