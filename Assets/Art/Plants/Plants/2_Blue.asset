@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeda475e8bf39f428beeb06b75fe206, type: 3}
   m_Name: 2_Blue
   m_EditorClassIdentifier: 
-  plantName: Eyeball
+  plantName: "Oko Diab\u0142a"
   plantNumber: 2
   plantStages:
   - {fileID: 21300000, guid: b36cac9548d240045bcbaa52514cd4c0, type: 3}

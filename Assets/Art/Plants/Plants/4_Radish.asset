@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeda475e8bf39f428beeb06b75fe206, type: 3}
   m_Name: 4_Radish
   m_EditorClassIdentifier: 
-  plantName: Radish
+  plantName: Krwawa Rzodkiew
   plantNumber: 4
   plantStages:
   - {fileID: 21300000, guid: e678efdc82a12af43ab2d7b49126bf51, type: 3}

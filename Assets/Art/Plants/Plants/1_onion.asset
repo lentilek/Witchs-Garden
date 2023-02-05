@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeda475e8bf39f428beeb06b75fe206, type: 3}
   m_Name: 1_onion
   m_EditorClassIdentifier: 
-  plantName: Onion
+  plantName: Duchowa Cebula
   plantNumber: 1
   plantStages:
   - {fileID: 21300000, guid: 81c372895a371bf4e8e959f2a6cae88d, type: 3}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeda475e8bf39f428beeb06b75fe206, type: 3}
   m_Name: 10_mushroom
   m_EditorClassIdentifier: 
-  plantName: Mushroom
+  plantName: Halucynek
   plantNumber: 10
   plantStages:
   - {fileID: 21300000, guid: 20cf073349a5ba34889b5f961f9eb551, type: 3}
